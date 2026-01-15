@@ -1,4 +1,6 @@
 from .config import app
+from .models import Episode, Guest, Appearance
+
 
 
 @app.route('/')
